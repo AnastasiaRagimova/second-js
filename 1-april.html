@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>crud operations</title>
+    <link rel="stylesheet" href="1-april.css" />
+</head>  
+
+<body>
+    <button id="createProductBtn" class="btn">Create new product</button>
+    
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModalBtn">X</span>
+
+            <h2 id="modalTitle">Create a New Product</h2>
+
+            <br />
+            <br />
+            <label for="productName">Product Name</label>
+            <input id="productName" name="productName" type="text" />
+
+            <br />
+            <br />
+            <label for="productPrice">Product Price</label>
+            <input id="productPrice" name="productPrice" type="number" />
+            
+            <br />
+            <br />
+            <label for="productDescription">Product Description</label>
+            <textarea id="productDescription" name="productDescription"></textarea>
+
+            <br />
+            <br />
+            <label for="productImage">Product Image URL</label>
+            <input id="productImage" name="productImage" type="text" />
+            
+            <br />
+            <br />
+            <button id="modalBtn" class="btn">Create product</button>
+        </div>
+    </div>
+
+    <div id="productList" class="product-container">
+       
+    </div>
+
+    <script src="1-april.js"></script>
+
+</body>
+</html> 
